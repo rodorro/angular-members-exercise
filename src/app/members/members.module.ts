@@ -6,11 +6,13 @@ import {
   MemberHeadComponent,
   MembersTableComponent
 } from './members-table';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     CommonModule,
     HttpClientModule,
+    FormsModule
   ],
   declarations: [
     MemberRowComponent,
